@@ -1,0 +1,71 @@
+body {
+    background-image: url(../images/empty-field-vector.jpg);
+    background-size: cover;
+}
+   
+.bird.bird1 {
+    display: inline-block;
+}
+
+.sun{
+    height: 250px;
+    width: 250px;
+    animation: sun 7s linear infinite;
+}
+
+@keyframes sun {
+    from {
+        transform: rotate(0deg);
+    }
+      to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+.bird{
+    margin-top: 150px;
+    margin-left: 100px;
+    width: 350px;
+    height: 300px;
+    display: inline-block;
+    position: fixed;
+    z-index: 5;
+    animation: bird 25s linear infinite;
+}
+
+.bird1 {
+    margin-top: 150px;
+    margin-left: 100px;
+    width: 350px;
+    height: 300px;
+    display: inline-block;
+    position: fixed;
+    z-index: 5;
+    animation: bird1 20s linear infinite;
+
+}
+
+@keyframes bird {
+    from{
+        margin-top: 400px;
+        margin-left: -910px;
+    }
+    to{
+        margin-top: 400px;
+        margin-left: 1700px ;
+    }
+}
+
+@keyframes bird1 {
+    from{
+        margin-top: 420px;
+        margin-left: -610px;
+    }
+    to{
+        margin-top: 440px;
+        margin-left: 1700px;
+    }
+}
